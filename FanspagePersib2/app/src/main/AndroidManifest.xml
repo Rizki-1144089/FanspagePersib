@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fanspage.persib.fanspagepersib">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Signin"/>
+        <activity android:name=".data_member" />
+        <activity android:name=".view_member" />
+        <activity android:name=".insert_member" />
+        <activity android:name=".update_member" />
+        <activity android:name=".data_jadwal" />
+        <activity android:name=".view_jadwal" />
+        <activity android:name=".insert_jadwal" />
+        <activity android:name=".update_jadwal" />
+        <activity android:name=".data_berita" />
+        <activity android:name=".view_berita" />
+        <activity android:name=".insert_berita" />
+        <activity android:name=".update_berita"></activity>
+
+    </application>
+
+</manifest>

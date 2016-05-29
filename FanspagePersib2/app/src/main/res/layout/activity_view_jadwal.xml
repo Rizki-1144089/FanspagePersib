@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fanspage.persib.fanspagepersib.view_jadwal"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Tanding       :"
+        android:id="@+id/tvTglTanding"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvIsiTglTanding"
+        android:layout_alignTop="@+id/tvTglTanding"
+        android:layout_alignLeft="@+id/tvIsiWaktuTanding"
+        android:layout_alignStart="@+id/tvIsiWaktuTanding"
+        android:background="#f5f3f3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu Tanding           :   "
+        android:id="@+id/tvWaktuTanding"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvIsiTglTanding"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvIsiWaktuTanding"
+        android:layout_alignTop="@+id/tvWaktuTanding"
+        android:layout_alignLeft="@+id/tvIsiLawanTanding"
+        android:layout_alignStart="@+id/tvIsiLawanTanding"
+        android:autoText="false"
+        android:background="#f5f3f3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lawan Tanding          :   "
+        android:id="@+id/tvLawanTanding"
+        android:layout_below="@+id/tvWaktuTanding"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvIsiLawanTanding"
+        android:layout_alignTop="@+id/tvLawanTanding"
+        android:layout_toRightOf="@+id/tvWaktuTanding"
+        android:layout_toEndOf="@+id/tvWaktuTanding"
+        android:background="#f5f3f3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Tanding          :   "
+        android:id="@+id/tvLokasiTanding"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvIsiLokasiTanding"
+        android:layout_alignTop="@+id/tvLokasiTanding"
+        android:layout_alignLeft="@+id/tvIsiLawanTanding"
+        android:layout_alignStart="@+id/tvIsiLawanTanding"
+        android:background="#f5f3f3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:id="@+id/bKembali2"
+        android:background="#3574f2"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tvIsiLokasiTanding"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_marginTop="52dp"
+        android:layout_alignRight="@+id/tvIsiLokasiTanding"
+        android:layout_alignEnd="@+id/tvIsiLokasiTanding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Jadwal                   :   "
+        android:id="@+id/textView5"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvIdJadwal"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignLeft="@+id/tvIsiTglTanding"
+        android:layout_alignStart="@+id/tvIsiTglTanding"
+        android:background="#f5f3f3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Detail Jadwal"
+        android:id="@+id/textView9"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

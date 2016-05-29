@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fanspage.persib.fanspagepersib.MainActivity"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ID Member  :   "
+        android:id="@+id/tvIdMember"
+        android:layout_below="@+id/tvMember"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nama           :   "
+        android:id="@+id/tvNama"
+        android:layout_below="@+id/tvIsiIdMember"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Alamat         :"
+        android:id="@+id/tvAlamat"
+        android:layout_below="@+id/tvIsiNama"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvMember"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvIsiIdMember"
+        android:background="#f5f3f3"
+        android:layout_alignTop="@+id/tvIdMember"
+        android:layout_toRightOf="@+id/tvNama"
+        android:layout_toEndOf="@+id/tvNama" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvIsiNama"
+        android:background="#f5f3f3"
+        android:layout_alignTop="@+id/tvNama"
+        android:layout_alignLeft="@+id/tvIsiIdMember"
+        android:layout_alignStart="@+id/tvIsiIdMember" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvIsiAlamat"
+        android:background="#f5f3f3"
+        android:layout_above="@+id/tvTelepon"
+        android:layout_alignTop="@+id/tvAlamat"
+        android:layout_alignLeft="@+id/tvIsiNama"
+        android:layout_alignStart="@+id/tvIsiNama" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:id="@+id/bKembali"
+        android:layout_below="@+id/tvIsiTelpon"
+        android:layout_alignRight="@+id/tvIsiTelpon"
+        android:layout_alignEnd="@+id/tvIsiTelpon"
+        android:layout_marginTop="52dp"
+        android:background="#3574f2"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Telepon       :"
+        android:id="@+id/tvTelepon"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tvAlamat"
+        android:layout_alignRight="@+id/tvAlamat"
+        android:layout_alignEnd="@+id/tvAlamat" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvIsiTelpon"
+        android:layout_toEndOf="@+id/tvAlamat"
+        android:background="#f5f3f3"
+        android:layout_alignTop="@+id/tvTelepon"
+        android:layout_alignLeft="@+id/tvIsiAlamat"
+        android:layout_alignStart="@+id/tvIsiAlamat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Detail Member"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvIdMember"
+        android:layout_toEndOf="@+id/tvIdMember"
+        android:textAlignment="center" />
+
+</RelativeLayout>
